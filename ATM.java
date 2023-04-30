@@ -7,7 +7,7 @@ public class ATM{
         //init bank
         Bank theBank = new Bank("State Bank Of India");
         //add user ,whichalso creates a savings account
-        User aUser = theBank.addUser("Aarsh","Dhokai","1111");
+        User aUser = theBank.addUser("G","GANESH S P \n \n","1111");
         //add a checking account for our user 
         Account newAccount = new Account("Checking",aUser,theBank);
         aUser.addAccount(newAccount);
