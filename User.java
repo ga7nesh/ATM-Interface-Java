@@ -37,7 +37,7 @@ public class User{
         this.accounts = new ArrayList<Account>();
 
         //Print log message 
-        System.out.println("New User : "+firstName+" "+lastName+" with ID : "+this.uuid+" created");
+        System.out.println("New User : "+firstName+" "+lastName+" with ID : "+this.uuid+" \n \n !! Account Created !!");
     }
     /**
      *  @param anAct the account to add
